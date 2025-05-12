@@ -7,7 +7,7 @@ import {
   useUploadProductImageMutation,
   useFetchCategoriesQuery
 } from "../../../../frontend/src/redux/api/productApiSlice";
-// import {  } from "../../redux/api/categoryApiSlice";
+import { ... } from "../../redux/api/categoryApiSlice";
 import { toast } from "react-toastify";
 import AdminMenu from "./AdminMenu";
 
