@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { addToCart, removeFromCart } from "../redux/features/cart/cartSlice";
-import { formatPrice } from "../utils/currencyFormatter";
+import { formatPrice } from "../Utils/currencyFormatter";
 
 const Cart = () => {
   const navigate = useNavigate();

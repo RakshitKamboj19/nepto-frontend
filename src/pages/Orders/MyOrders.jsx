@@ -5,7 +5,7 @@ import { FaEye, FaClipboardList } from 'react-icons/fa';
 import { useGetMyOrdersQuery } from '../../redux/api/orderApiSlice';
 import Loader from '../../components/Loader';
 import Message from '../../components/Message';
-import { formatPrice } from '../../utils/currencyFormatter';
+import { formatPrice } from '../../Utils/currencyFormatter';
 
 const MyOrders = () => {
   const { userInfo } = useSelector((state) => state.auth);

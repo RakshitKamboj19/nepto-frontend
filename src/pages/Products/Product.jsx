@@ -8,7 +8,7 @@ import Message from '../../components/Message';
 import { useGetProductByIdQuery } from '../../redux/api/productApiSlice';
 import { addToCart } from '../../redux/features/cart/cartSlice';
 import { addToFavorites, removeFromFavorites } from '../../redux/features/favorites/favoritesSlice';
-import { formatPrice } from '../../utils/currencyFormatter';
+import { formatPrice } from '../../Utils/currencyFormatter';
 import Rating from './Ratings';
 
 const Product = () => {

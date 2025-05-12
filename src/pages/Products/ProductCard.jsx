@@ -8,7 +8,7 @@ import { addToCart } from '../../redux/features/cart/cartSlice';
 import { addToFavorites, removeFromFavorites } from '../../redux/features/favorites/favoritesSlice';
 import { toast } from "react-toastify";
 import HeartIcon from "./HeartIcon";
-import { formatPrice } from '../../utils/currencyFormatter';
+import { formatPrice } from '../../Utils/currencyFormatter';
 
 const ProductCard = ({ p }) => {
   const dispatch = useDispatch();

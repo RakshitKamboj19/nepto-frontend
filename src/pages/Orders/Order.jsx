@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import Messsage from "../../components/Message";
 import Loader from "../../components/Loader";
-import { formatPrice } from "../../utils/currencyFormatter";
+import { formatPrice } from "../../Utils/currencyFormatter";
 import {
   useDeliverOrderMutation,
   useGetOrderDetailsQuery,
