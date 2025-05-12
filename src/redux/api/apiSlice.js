@@ -11,7 +11,7 @@ export const apiSlice = createApi({
       }
       return headers;
     },
-    credentials: 'include', // This ensures cookies are sent with requests
+    credentials: 'same-origin', // Changed from 'include' to 'same-origin' to fix CORS issues
     mode: 'cors' // Explicitly set CORS mode
   }),
   tagTypes: ['Product', 'Order', 'User', 'Category'],
