@@ -9,7 +9,7 @@ import Newsletter from "../components/Newsletter";
 import { useAllProductsQuery } from "../redux/api/productApiSlice";
 import { FaHeart, FaRegHeart, FaShoppingCart, FaStar, FaArrowRight } from "react-icons/fa";
 import { addToFavorites, removeFromFavorites } from "../redux/features/favorites/favoritesSlice";
-import { formatPrice } from "../utils/currencyFormatter";
+import { formatPrice } from "../Utils/currencyFormatter";
 
 const Home = () => {
   const { data, isLoading, error, refetch } = useAllProductsQuery();
