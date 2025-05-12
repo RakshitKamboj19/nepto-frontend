@@ -6,7 +6,7 @@ import {
   useCreateProductMutation,
   useUploadProductImageMutation,
   useFetchCategoriesQuery
-} from "../../../redux/api/productApiSlice";
+} from "../../redux/api/productApiSlice";
 // Import removed - was causing build error
 import { toast } from "react-toastify";
 import AdminMenu from "./AdminMenu";
